@@ -1,0 +1,23 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Yolŋu Cultural New Tab</title>
+<style>
+html,body{margin:0;width:100%;height:100%;font-family:Segoe UI,Arial,sans-serif;background:#053037;color:#f2e0bc}
+body{background-size:cover;background-position:center;background-repeat:no-repeat}
+.scrim{position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,48,55,.18),rgba(5,48,55,.25) 48%,rgba(5,48,55,.88))}
+.content{position:relative;z-index:1;min-height:100%;display:flex;flex-direction:column;align-items:center}
+.top{width:calc(100% - 70px);display:flex;justify-content:space-between;align-items:center;padding:28px 35px;font-size:15px}
+.brand{font-weight:600;letter-spacing:.08em}.date{opacity:.85}
+.center{width:min(760px,80%);margin-top:18vh;text-align:center}
+.word{font-size:clamp(42px,6vw,82px);font-weight:700;text-shadow:0 2px 14px #001a1d}
+.meaning{font-size:20px;margin:10px 0 30px;color:#f4ead5}
+.search{display:flex;background:rgba(5,48,55,.84);border:1px solid rgba(242,224,188,.35);border-radius:28px;padding:6px}
+.search input{flex:1;background:transparent;border:0;outline:0;color:white;font-size:17px;padding:13px 18px}
+.search button{border:0;border-radius:22px;background:#c17418;color:white;padding:0 22px;font-weight:600;cursor:pointer}
+.footer{margin-top:auto;padding:25px;font-size:14px;opacity:.9}
+</style></head><body><div class="scrim"></div><div class="content">
+<div class="top"><div class="brand">YOLŊU CULTURAL THEME</div><div class="date" id="date"></div></div>
+<main class="center"><div class="word" id="word"></div><div class="meaning" id="meaning"></div>
+<form class="search" id="search"><input id="q" autocomplete="off" placeholder="Search the web or enter a URL"><button>Search</button></form></main>
+<div class="footer">Country • Kinship • Culture • Future &nbsp; • &nbsp; <span id="day"></span></div>
+</div>
+<script src="newtab.js"></script></body></html>

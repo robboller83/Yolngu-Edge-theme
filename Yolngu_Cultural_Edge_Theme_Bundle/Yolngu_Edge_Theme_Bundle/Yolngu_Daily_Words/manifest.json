@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Yolŋu Cultural Daily Words",
+  "version": "1.0.2",
+  "description": "Companion new-tab experience that rotates through 30 Yolŋu Matha cultural words and artwork.",
+  "icons": {
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
+}
